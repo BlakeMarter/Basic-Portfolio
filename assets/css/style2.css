@@ -4,9 +4,8 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0;
  }
-/* ---------Nav Bar----------
--------------------------- */
-
+/* ----------Nav Bar------------
+----------------------------- */
  .container1 {
     width: 80%;
     margin: 0 auto;
@@ -78,23 +77,8 @@ nav a:hover::before {
     width: 100%;
 }
 
-/* ---------Below Nav Bar-----------
---------------------------------- */
-.content {
-    margin-right: 20%;
-    margin-left: 20%;
-    background-color: white;
-    position: relative;
-    padding: 20px;
-    margin-top: 5%;
-}
-
-.container2 {
-    background-color: white;
-    float: left;
-    position: relative;
-    padding: 10px 20px 5px 10px;
-}
+/* --------Content below Navbar-------
+----------------------------------- */
 
 #about { 
     color: #4aaaa5;
@@ -106,27 +90,42 @@ nav a:hover::before {
     border-bottom: 1px solid #cccccc;
 }
 
-img {
-    float: left;
+.container {
+    margin-right: 20%;
+    margin-left: 20%;
     background-color: white;
-    max-width: 100%;
-    margin-right: 2%;
-    height: 130px;
-
+    position: relative;
+    padding: 20px;
+    margin-top: 5%;
 }
-.clearfix:after {
-    content: '';
-    display: table;
-    clear: both;
+
+.contact input[type=text], .contact input[type=email], textarea {
+    width: 100%;
+    margin-bottom: 1px;
+    padding: 5px;
+    margin-left: -1.2%;
+}
+.contact a {
+    text-decoration: none;
+    background: #4aaaa5;
+    color: #ffffff;
+    display: block;
+    text-align: left;
+    padding: 5px;
+    margin-left: -1%;
+    width: 7.5%;
+    font-size: small;
 }
 
 p {
-    margin-top: 20px;
     text-align: left;
-    font-size: smaller;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-}
+    margin-bottom: 2px;
+    font-size: small;
+    margin-left: -1%;
 
+}
 /* ---------Footer----------
 ------------------------- */
 .footer {
@@ -135,12 +134,17 @@ p {
     width: 100%;
     height: 60px;
     background-color: #666666;
-    color: white;
+    color: #ffffff;
     left: 0;
     font-size: small;
     border-top: 3px solid #4aaaa5;
+    /* position: aboslute; */
 }
-
+/* .footer:after {
+    content: '';
+    display: table;
+    clear: both;
+} */
 #footertext {
     position: relative;
     top: 40px;
